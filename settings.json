@@ -1,0 +1,246 @@
+
+// -------------------------
+// Windows Terminal settings 
+// -------------------------
+
+
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+
+    "profiles":
+    [
+        {
+            // Make changes here to the powershell.exe profile
+            "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+            "name": "Windows PowerShell",
+            "commandline": "powershell.exe",
+            "hidden": false
+        },
+        {
+            // Make changes here to the cmd.exe profile
+            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+            "name": "cmd",
+            "commandline": "cmd.exe",
+            "hidden": false
+        },
+        {
+            "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+            "hidden": false,
+            "name": "Ubuntu",
+            "source": "Windows.Terminal.Wsl",
+		        "cursorShape": "filledBox",
+		        "fontFace": "Meslo LG S for Powerline",
+		        "fontSize": 10,
+	          "colorScheme" : "Dark+"
+        },
+        {
+            "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+            "hidden": false,
+            "name": "Azure Cloud Shell",
+            "source": "Windows.Terminal.Azure"
+        }
+    ],
+
+    // Add custom color schemes to this array
+    "schemes": [
+{
+  "name": "Arthur",
+  "black": "#3d352a",
+  "red": "#cd5c5c",
+  "green": "#86af80",
+  "yellow": "#e8ae5b",
+  "blue": "#6495ed",
+  "purple": "#deb887",
+  "cyan": "#b0c4de",
+  "white": "#bbaa99",
+  "brightBlack": "#554444",
+  "brightRed": "#cc5533",
+  "brightGreen": "#88aa22",
+  "brightYellow": "#ffa75d",
+  "brightBlue": "#87ceeb",
+  "brightPurple": "#996600",
+  "brightCyan": "#b0c4de",
+  "brightWhite": "#ddccbb",
+  "background": "#1c1c1c",
+  "foreground": "#ddeedd"
+},
+{
+  "name": "Dark+",
+  "black": "#000000",
+  "red": "#cd3131",
+  "green": "#0dbc79",
+  "yellow": "#e5e510",
+  "blue": "#2472c8",
+  "purple": "#bc3fbc",
+  "cyan": "#11a8cd",
+  "white": "#e5e5e5",
+  "brightBlack": "#666666",
+  "brightRed": "#f14c4c",
+  "brightGreen": "#23d18b",
+  "brightYellow": "#f5f543",
+  "brightBlue": "#3b8eea",
+  "brightPurple": "#d670d6",
+  "brightCyan": "#29b8db",
+  "brightWhite": "#e5e5e5",
+  "background": "#1e1e1e",
+  "foreground": "#cccccc"
+},
+{
+  "name": "Jellybeans",
+  "black": "#929292",
+  "red": "#e27373",
+  "green": "#94b979",
+  "yellow": "#ffba7b",
+  "blue": "#97bedc",
+  "purple": "#e1c0fa",
+  "cyan": "#00988e",
+  "white": "#dedede",
+  "brightBlack": "#bdbdbd",
+  "brightRed": "#ffa1a1",
+  "brightGreen": "#95d8ba",
+  "brightYellow": "#ffdca0",
+  "brightBlue": "#b1d8f6",
+  "brightPurple": "#fbdaff",
+  "brightCyan": "#1ab2a8",
+  "brightWhite": "#ffffff",
+  "background": "#121212",
+  "foreground": "#dedede"
+},
+{
+  "name": "PencilDark",
+  "black": "#212121",
+  "red": "#c30771",
+  "green": "#10a778",
+  "yellow": "#a89c14",
+  "blue": "#008ec4",
+  "purple": "#523c79",
+  "cyan": "#20a5ba",
+  "white": "#d9d9d9",
+  "brightBlack": "#424242",
+  "brightRed": "#fb007a",
+  "brightGreen": "#5fd7af",
+  "brightYellow": "#f3e430",
+  "brightBlue": "#20bbfc",
+  "brightPurple": "#6855de",
+  "brightCyan": "#4fb8cc",
+  "brightWhite": "#f1f1f1",
+  "background": "#212121",
+  "foreground": "#f1f1f1"
+},
+{
+  "name": "Red Planet",
+  "black": "#202020",
+  "red": "#8c3432",
+  "green": "#728271",
+  "yellow": "#e8bf6a",
+  "blue": "#69819e",
+  "purple": "#896492",
+  "cyan": "#5b8390",
+  "white": "#b9aa99",
+  "brightBlack": "#676767",
+  "brightRed": "#b55242",
+  "brightGreen": "#869985",
+  "brightYellow": "#ebeb91",
+  "brightBlue": "#60827e",
+  "brightPurple": "#de4974",
+  "brightCyan": "#38add8",
+  "brightWhite": "#d6bfb8",
+  "background": "#222222",
+  "foreground": "#c2b790"
+},
+{
+  "name": "SoftServer",
+  "black": "#000000",
+  "red": "#a2686a",
+  "green": "#9aa56a",
+  "yellow": "#a3906a",
+  "blue": "#6b8fa3",
+  "purple": "#6a71a3",
+  "cyan": "#6ba58f",
+  "white": "#99a3a2",
+  "brightBlack": "#666c6c",
+  "brightRed": "#dd5c60",
+  "brightGreen": "#bfdf55",
+  "brightYellow": "#deb360",
+  "brightBlue": "#62b1df",
+  "brightPurple": "#606edf",
+  "brightCyan": "#64e39c",
+  "brightWhite": "#d2e0de",
+  "background": "#242626",
+  "foreground": "#99a3a2"
+},
+{
+  "name": "Tomorrow Night",
+  "black": "#000000",
+  "red": "#cc6666",
+  "green": "#b5bd68",
+  "yellow": "#f0c674",
+  "blue": "#81a2be",
+  "purple": "#b294bb",
+  "cyan": "#8abeb7",
+  "white": "#ffffff",
+  "brightBlack": "#000000",
+  "brightRed": "#cc6666",
+  "brightGreen": "#b5bd68",
+  "brightYellow": "#f0c674",
+  "brightBlue": "#81a2be",
+  "brightPurple": "#b294bb",
+  "brightCyan": "#8abeb7",
+  "brightWhite": "#ffffff",
+  "background": "#1d1f21",
+  "foreground": "#c5c8c6"
+},
+{
+  "name": "Banana Blueberry",
+  "black": "#17141f",
+  "red": "#ff6b7f",
+  "green": "#00bd9c",
+  "yellow": "#e6c62f",
+  "blue": "#22e8df",
+  "purple": "#dc396a",
+  "cyan": "#56b6c2",
+  "white": "#f1f1f1",
+  "brightBlack": "#495162",
+  "brightRed": "#fe9ea1",
+  "brightGreen": "#98c379",
+  "brightYellow": "#f9e46b",
+  "brightBlue": "#91fff4",
+  "brightPurple": "#da70d6",
+  "brightCyan": "#bcf3ff",
+  "brightWhite": "#ffffff",
+  "background": "#191323",
+  "foreground": "#cccccc"
+},
+{
+  "name": "Blazer",
+  "black": "#000000",
+  "red": "#b87a7a",
+  "green": "#7ab87a",
+  "yellow": "#b8b87a",
+  "blue": "#7a7ab8",
+  "purple": "#b87ab8",
+  "cyan": "#7ab8b8",
+  "white": "#d9d9d9",
+  "brightBlack": "#262626",
+  "brightRed": "#dbbdbd",
+  "brightGreen": "#bddbbd",
+  "brightYellow": "#dbdbbd",
+  "brightBlue": "#bdbddb",
+  "brightPurple": "#dbbddb",
+  "brightCyan": "#bddbdb",
+  "brightWhite": "#ffffff",
+  "background": "#0d1926",
+  "foreground": "#d9e6f2"
+}
+
+],
+
+    // Add any keybinding overrides to this array.
+    // To unbind a default keybinding, set the command to "unbound"
+    "keybindings": []
+}
